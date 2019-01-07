@@ -16,7 +16,7 @@ mybatis:
 spring:
   profiles: dev
   application:
-    name: billRechargeProvider                              #不能包括下划线
+    name: bill-Recharge-Provider                            #不能包括下划线
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.jdbc.Driver                # mysql驱动包
@@ -57,7 +57,7 @@ mybatis:
 spring:
   profiles: test
   application:
-    name: billRechargeProvider                              #不能包括下划线
+    name: bill-Recharge-Provider                            #不能包括下划线
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: com.mysql.jdbc.Driver                # mysql驱动包
