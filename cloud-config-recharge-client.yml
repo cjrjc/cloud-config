@@ -35,7 +35,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka  #集群配置
   instance:
-    instance-id: recharge-provider-8001.com     #自定义服务名称
+    instance-id: bill-recharge-provider-8001.com     #自定义服务名称
     prefer-ip-address: true                      #访问路径可以显示IP
 
 info:
@@ -76,7 +76,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka  #集群配置
   instance:
-    instance-id: recharge-provider-8001.com     #自定义服务名称
+    instance-id: bill-recharge-provider-8001.com     #自定义服务名称
     prefer-ip-address: true                      #访问路径可以显示IP
 
 info:
