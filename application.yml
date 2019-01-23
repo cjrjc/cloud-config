@@ -10,7 +10,7 @@ spring:
     name: bill-recharge-config-3344-dev
 ---
 spring:
-  profiles: test #开发环境
+  profiles: test #测试环境
   application:
     name: bill-recharge-config-3344-test
 # 请保存为UTF-8格式
